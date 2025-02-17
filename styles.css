@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: pink; /* Light background color */
+    margin: 0;
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+.container {
+    background-color: #ffffff; /* White background for containers */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    display: none; /* Hide containers by default */
+}
+
+.container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.container input {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.container button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.container button:hover {
+    background-color: #0056b3;
+}
+
+.message-container {
+    display: none;
+    text-align: center;
+    background-color: #fff0f5; /* Light pink background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.love-letter {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    text-align: left;
+    font-family: 'Georgia', serif; /* Elegant font for the love letter */
+    margin: 0;
+}
+
+.love-letter p {
+    margin-bottom: 10px;
+}
+
+.love-letter br {
+    line-height: 2;
+}
+
+.gif-container {
+    margin-top: 20px;
+}
+
+.gif-container img {
+    max-width: 100px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
