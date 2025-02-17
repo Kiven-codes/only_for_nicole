@@ -68,6 +68,11 @@ body {
     text-align: left;
     font-family: 'Georgia', serif; /* Elegant font for the love letter */
     margin: 0;
+    padding: 20px;
+    background-color: #fff; /* White background for the letter */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc; /* Light border for the letter */
 }
 
 .love-letter p {
@@ -83,7 +88,7 @@ body {
 }
 
 .gif-container img {
-    max-width: 100px;
+    max-width: 150px; /* Increase the size of the GIF */
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
